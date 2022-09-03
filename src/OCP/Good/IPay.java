@@ -1,2 +1,5 @@
-package OCP.Good;public interface IPay {
+package OCP.Good;
+
+public interface IPay {
+	void makePayment();
 }

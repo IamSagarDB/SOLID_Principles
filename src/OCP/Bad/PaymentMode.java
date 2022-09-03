@@ -1,2 +1,6 @@
-package OCP.Bad;public enum PaymentMode {
+package OCP.Bad;
+
+public enum PaymentMode {
+    CARD,
+    UPI
 }
