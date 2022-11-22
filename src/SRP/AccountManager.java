@@ -1,8 +1,10 @@
+package SRP;
+
 import java.util.*;
 import SRP.Account;
 
 public class AccountManager {
-    Map<int , Account> accountList = new HashMap<int , Account>();
+    Map<Integer , Account> accountList = new HashMap<Integer , Account>();
 
     public void AddNewAccount(Account account){
         accountList.put(account.getAccountNumber(), account);
@@ -14,6 +16,8 @@ public class AccountManager {
 
 
     public void withdraw(Account account, int amount){
-        Account 
+        Account accountDetail = accountList.get(account.getAccountNumber());
+        accountDetail.addTotalAmount(amount);
+        accountList.put(account.getAccountNumber(), accountDetail);
     }
 }
