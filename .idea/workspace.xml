@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added OCP">
-      <change afterPath="$PROJECT_DIR$/src/LSP/Bad/CreditCardLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSP/Bad/HomeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSP/Bad/LoanClosureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSP/Bad/LoanPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSP/Good/CreditCardLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSP/Good/HomeLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSP/Good/LoanPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LSP/Good/SecurePayment.java" afterDir="false" />
+    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added LSP">
+      <change afterPath="$PROJECT_DIR$/src/ISP/Bad/DAOInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ISP/Bad/DBOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ISP/Bad/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ISP/Good/DBDAOInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ISP/Good/DBOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ISP/Good/FileDAOInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ISP/Good/FileOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669256303941</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added LSP">
+      <created>1669258337742</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669258337742</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +172,7 @@
     <MESSAGE value="added Open close Principal" />
     <MESSAGE value="added SRP" />
     <MESSAGE value="added OCP" />
-    <option name="LAST_COMMIT_MESSAGE" value="added OCP" />
+    <MESSAGE value="added LSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LSP" />
   </component>
 </project>
