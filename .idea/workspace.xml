@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added ISP">
-      <change afterPath="$PROJECT_DIR$/src/DIP/Bad/AddOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DIP/Bad/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DIP/Bad/SubOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DIP/Good/AddOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DIP/Good/CalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DIP/Good/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DIP/Good/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DIP/Good/SubOperation.java" afterDir="false" />
+    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added ISP, DIP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,52 +54,20 @@
       <recent name="DIP.Good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DIP.Good.Main">
-    <configuration name="DIP.Good.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DIP.Good.Main" />
-      <module name="SOLID_Principles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DIP.Good.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LSP.Bad.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LSP.Bad.Main" />
-      <module name="SOLID_Principles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LSP.Bad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LSP.Good.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LSP.Good.Main" />
-      <module name="SOLID_Principles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LSP.Good.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LowLevelDesign" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCP.Bad.Main" />
-      <module name="SOLID_Principles" />
+      <option name="MAIN_CLASS_NAME" value="SOLID_Principles.DIP.Good.Main" />
+      <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCP.Bad.*" />
+          <option name="PATTERN" value="SOLID_Principles.DIP.Good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +75,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OCP.Good.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCP.Good.Main" />
-      <module name="SOLID_Principles" />
+    <configuration name="SOLID_Principles.LSP.Bad.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID_Principles.LSP.Bad.Main" />
+      <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCP.Good.*" />
+          <option name="PATTERN" value="SOLID_Principles.LSP.Bad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SOLID_Principles.LSP.Good.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID_Principles.LSP.Good.Main" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOLID_Principles.LSP.Good.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SOLID_Principles.OCP.Good.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SOLID_Principles.OCP.Good.Main" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SOLID_Principles.OCP.Good.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.DIP.Good.Main" />
-        <item itemvalue="Application.LSP.Good.Main" />
-        <item itemvalue="Application.LSP.Bad.Main" />
-        <item itemvalue="Application.OCP.Good.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SOLID_Principles.LSP.Good.Main" />
+        <item itemvalue="Application.SOLID_Principles.LSP.Bad.Main" />
+        <item itemvalue="Application.SOLID_Principles.OCP.Good.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669310383568</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added ISP, DIP">
+      <created>1669382074141</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669382074141</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +195,7 @@
     <MESSAGE value="added OCP" />
     <MESSAGE value="added LSP" />
     <MESSAGE value="added ISP" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ISP" />
+    <MESSAGE value="added ISP, DIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ISP, DIP" />
   </component>
 </project>
