@@ -1,4 +1,4 @@
-package SOLID_Principles.OCP.Bad;
+package SOLID_Principles.OCP;
 
 /**
  * Right now we have "add" and "sub" operation , If we want to add more operation than we need to modify the existing class.
