@@ -1,16 +1,29 @@
 public class Main {
     public static void main(String[] args) {
-       int A = 9;
+        String a = "ABCABC";
+        String b = "ABC";
+        System.out.println(isCheck(a,b));
+    }
 
-        System.out.println(Math.log(A));
-        System.out.println(Math.log(2) );
-        int power = (int) (Math.log(A) / Math.log(2));
-        System.out.println(power);
-        int nearPower = (int) Math.pow(2, power);
-        System.out.println(nearPower);
-        // total people to be killed to get closest power of 2 get the chance to kill
-        int killer = (2 * nearPower) + 1;
-        System.out.println(killer);
+    private static  String isCheck(String a , String b){
+        if (a.length() == b.length()){
+            if (a.equals(b)){
+                return a;
+            }else {
+                return "";
+            }
+        }
+
+        if (a.length() < b.length()) {
+            String temp = a;
+            a = b;
+            b = temp;
+        }
+
+        if (!a.startsWith(b)) return "";
+
+        return isCheck(a.substring(b.length()), b);
     }
 }
+
 

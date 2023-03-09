@@ -1,0 +1,24 @@
+@startuml
+
+abstract class Car {
+    +String model();
+    +String manufacturingYear();
+    +String color();
+    +String brand();
+    +void print();
+}
+class CarFactory {
+    + static Car createCar(String type, String model, String year, String color, String brand)
+}
+class ElectricCar
+class NonEvCar
+
+Car <|-- ElectricCar
+Car <|-- NonEvCar
+
+ElectricCar <|-- CarFactory
+NonEvCar <|-- CarFactory
+
+
+
+@enduml

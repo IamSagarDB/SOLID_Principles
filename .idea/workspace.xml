@@ -5,40 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Bad/Bad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Good/Good.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID_Principles/OCP/GoodCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/FactoryMethod/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/FactoryMethod/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/FactoryMethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/FactoryMethod/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/FactoryMethod/FractoryMethod.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/FactoryMethod/NonEvCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UML.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/DIP/Good/AddOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/DIP/Good/CalInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/DIP/Good/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/DIP/Good/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SOLID_Principles/DIP/Good/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/DIP/Good/SubOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/ISP/Good/DBDAOInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/ISP/Good/DBOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SOLID_Principles/ISP/Good/DBOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/ISP/Good/FileDAOInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/ISP/Good/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SOLID_Principles/ISP/Good/FileOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Bad/CreditCardLoan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Bad/HomeLoan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Bad/LoanClosureService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Bad/LoanPayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Bad/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Good/CreditCardLoan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Good/HomeLoan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Good/LoanClosureService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Good/LoanPayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Good/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/LSP/Good/SecurePayment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/OCP/Bad/BadCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SOLID_Principles/OCP/BadCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/OCP/Good/Addition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/OCP/Good/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/OCP/Good/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/OCP/Good/Operations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SOLID_Principles/OCP/Good/Subtraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OODesign/Singleton/LazySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OODesign/Singleton/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OODesign/Singleton/Singleton.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +28,8 @@
       <list>
         <option value="Enum" />
         <option value="FxmlFile" />
+        <option value="UML Activity" />
+        <option value="UML Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -70,40 +50,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/Interview Prep/LowLevelDesign&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Work/Interview Prep/LowLevelDesign",
+    "settings.editor.selected.configurable": "settings.sync"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="DIP.Good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OODesign.Creational.FactoryMethod.Client" />
       <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OODesign.Creational.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SOLID_Principles.OCP.Good.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SOLID_Principles.OCP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.OODesign.Singleton.Main" />
         <item itemvalue="Application.SOLID_Principles.LSP.Good.Main" />
@@ -214,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670199688854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1674756230484</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674756230484</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
