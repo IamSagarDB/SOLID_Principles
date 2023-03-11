@@ -1,6 +1,6 @@
 package OODesign.Creational.FactoryMethod;
 
-public class NonEvCar extends Car{
+public class NonEvCar extends Car {
     private String model;
     private String manufacturingYear;
     private String color;
@@ -44,9 +44,8 @@ public class NonEvCar extends Car{
         System.out.println(res);
     }
 
-    public String carType(){
+    public String carType() {
         return "Non EV";
     }
-
 
 }

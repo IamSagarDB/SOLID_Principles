@@ -1,5 +1,12 @@
+import javax.xml.crypto.Data;
+import java.text.NumberFormat;
+import java.util.Calendar;
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 public class Main {
     public static void main(String[] args) {
+
         String a = "ABCABC";
         String b = "ABC";
         System.out.println(isCheck(a,b));
