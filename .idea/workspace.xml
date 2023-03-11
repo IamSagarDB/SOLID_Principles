@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Factory Method DP">
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/AdmitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/FeeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PrivateUniversity/AdmitCard/HarvardAdmitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PrivateUniversity/AdmitCard/MITAdmitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PrivateUniversity/FeeCalculator/HarvardFeeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PrivateUniversity/FeeCalculator/MITFeeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PrivateUniversity/PrivateUniversity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PublicUniversity/AdmitCard/PennStateAdmitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PublicUniversity/AdmitCard/UVCAdmitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PublicUniversity/FeeCalculator/PennStateFeeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PublicUniversity/FeeCalculator/UVCFeeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/PublicUniversity/PublicUniversity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/AbstractFactory/UniversityAbstractFactory.java" afterDir="false" />
+    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Abstract Factory CP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OODesign/Creational/FactoryMethod/NonEvCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OODesign/Creational/FactoryMethod/NonEvCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +59,15 @@
       <recent name="DIP.Good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OODesign.Creational.AbstractFactory.Client">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LowLevelDesign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LowLevelDesign" />
       <method v="2">
@@ -88,19 +80,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OODesign.Creational.AbstractFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OODesign.Singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OODesign.Singleton.Main" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OODesign.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OODesign.Creational.AbstractFactory.Client" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.OODesign.Creational.AbstractFactory.Client" />
         <item itemvalue="Application.SOLID_Principles.LSP.Good.Main" />
         <item itemvalue="Application.SOLID_Principles.LSP.Bad.Main" />
-        <item itemvalue="Application.OODesign.Singleton.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678382644353</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added Abstract Factory CP">
+      <created>1678553706311</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678553706311</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +226,7 @@
     <MESSAGE value="updated package name" />
     <MESSAGE value="update" />
     <MESSAGE value="added Factory Method DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Factory Method DP" />
+    <MESSAGE value="added Abstract Factory CP" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Abstract Factory CP" />
   </component>
 </project>
