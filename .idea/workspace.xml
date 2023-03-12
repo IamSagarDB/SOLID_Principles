@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Abstract Factory CP">
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Singleton/MultiThread/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Singleton/MultiThread/SingletonMultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Singleton/SingleThreaded/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Singleton/SingleThreaded/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,20 @@
       <recent name="DIP.Good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.OODesign.Creational.Singleton.MultiThread.Client (1)">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OODesign.Creational.Singleton.SingleThreaded.Client" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OODesign.Creational.Singleton.SingleThreaded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LowLevelDesign" />
@@ -74,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OODesign.Creational.AbstractFactory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OODesign.Creational.AbstractFactory.Client" />
+    <configuration name="OODesign.Creational.Singleton.MultiThread.Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OODesign.Creational.Singleton.MultiThread.Client" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OODesign.Creational.AbstractFactory.*" />
+          <option name="PATTERN" value="OODesign.Creational.Singleton.MultiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,25 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SOLID_Principles.LSP.Bad.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SOLID_Principles.LSP.Bad.Main" />
+    <configuration name="OODesign.Creational.Singleton.MultiThread.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OODesign.Creational.Singleton.MultiThread.Client" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SOLID_Principles.LSP.Bad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SOLID_Principles.LSP.Good.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SOLID_Principles.LSP.Good.Main" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SOLID_Principles.LSP.Bad.*" />
+          <option name="PATTERN" value="OODesign.Creational.Singleton.MultiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OODesign.Creational.Singleton.MultiThread.Client (1)" />
+        <item itemvalue="Application.OODesign.Creational.Singleton.MultiThread.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.OODesign.Creational.AbstractFactory.Client" />
-        <item itemvalue="Application.SOLID_Principles.LSP.Good.Main" />
-        <item itemvalue="Application.SOLID_Principles.LSP.Bad.Main" />
       </list>
     </recent_temporary>
   </component>
