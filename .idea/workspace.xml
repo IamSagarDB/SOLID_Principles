@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Abstract Factory CP">
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Singleton/MultiThread/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Singleton/MultiThread/SingletonMultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Singleton/SingleThreaded/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Singleton/SingleThreaded/Singleton.java" afterDir="false" />
+    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Singleton CP">
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Builder/URLBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Food/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Food/FoodItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Grocery/Grocery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Grocery/GroceryAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Grocery/GroceryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/SwiggyFoodClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
       <recent name="DIP.Good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OODesign.Creational.Singleton.MultiThread.Client (1)">
+  <component name="RunManager" selected="Application.OODesign.Creational.Builder.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OODesign.Creational.Singleton.SingleThreaded.Client" />
       <module name="LowLevelDesign" />
@@ -76,16 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LowLevelDesign" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="OODesign.Creational.Builder.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OODesign.Creational.Builder.Client" />
       <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OODesign.Creational.Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OODesign.Creational.Builder.Client" />
         <item itemvalue="Application.OODesign.Creational.Singleton.MultiThread.Client (1)" />
         <item itemvalue="Application.OODesign.Creational.Singleton.MultiThread.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678553706311</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added Singleton CP">
+      <created>1678647618749</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678647618749</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +248,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="added Factory Method DP" />
     <MESSAGE value="added Abstract Factory CP" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Abstract Factory CP" />
+    <MESSAGE value="added Singleton CP" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Singleton CP" />
   </component>
 </project>
