@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Singleton CP">
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Creational/Builder/URLBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Food/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Food/FoodItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Grocery/Grocery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Grocery/GroceryAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/Grocery/GroceryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OODesign/Structural/Adapter/SwiggyFoodClient.java" afterDir="false" />
+    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Adapter Design pattern">
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Behavioral/ChainOfResponsibility/BankCoR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Behavioral/ChainOfResponsibility/BankPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Behavioral/ChainOfResponsibility/CardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Behavioral/ChainOfResponsibility/PaymentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OODesign/Behavioral/ChainOfResponsibility/UPIPayment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,20 @@
       <recent name="DIP.Good" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OODesign.Creational.Builder.Client">
+  <component name="RunManager" selected="Application.BankCoR">
+    <configuration name="BankCoR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OODesign.Behavioral.ChainOfResponsibility.BankCoR" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OODesign.Behavioral.ChainOfResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OODesign.Creational.Singleton.SingleThreaded.Client" />
       <module name="LowLevelDesign" />
@@ -77,13 +86,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LowLevelDesign" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankCoR" />
         <item itemvalue="Application.OODesign.Creational.Builder.Client" />
         <item itemvalue="Application.OODesign.Creational.Singleton.MultiThread.Client (1)" />
         <item itemvalue="Application.OODesign.Creational.Singleton.MultiThread.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678647618749</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added Adapter Design pattern">
+      <created>1679239414486</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679239414487</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +258,7 @@
     <MESSAGE value="added Factory Method DP" />
     <MESSAGE value="added Abstract Factory CP" />
     <MESSAGE value="added Singleton CP" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Singleton CP" />
+    <MESSAGE value="added Adapter Design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Adapter Design pattern" />
   </component>
 </project>
