@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Adapter Design pattern">
+    <list default="true" id="4bc0fa6a-1641-4a11-95da-23e64b724711" name="Changes" comment="added Chain of responsibility  Design pattern">
       <change afterPath="$PROJECT_DIR$/src/OODesign/Behavioral/ChainOfResponsibility/BankCoR.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/OODesign/Behavioral/ChainOfResponsibility/BankPayment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/OODesign/Behavioral/ChainOfResponsibility/CardPayment.java" afterDir="false" />
@@ -232,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679239414487</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added Chain of responsibility  Design pattern">
+      <created>1679249420676</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679249420676</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +266,7 @@
     <MESSAGE value="added Abstract Factory CP" />
     <MESSAGE value="added Singleton CP" />
     <MESSAGE value="added Adapter Design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Adapter Design pattern" />
+    <MESSAGE value="added Chain of responsibility  Design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Chain of responsibility  Design pattern" />
   </component>
 </project>
